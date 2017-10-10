@@ -30,7 +30,7 @@ add_executable(executable
 
 
 
-            lab2.1
+            lab2.1.cpp
 
 
 
