@@ -47,7 +47,7 @@ int main()
         std::cout << "All values does not satisfy condition/n";
     }
 
-    if (((!(z % 5)) && (x % 5)) && (y % 5))) || ((z % 5) && (!(x % 5) && (y % 5)) || ((z % 5) && (x % 5) && (!(y % 5))))
+if((((!(z % 5))&&(x % 5))&&(y % 5))||((z % 5)&&(!(x % 5) && (y % 5))||((z % 5)&&(x % 5)&&(!(y % 5)))))
     {
         std::cout << "One of values multiples of 5/n";
     }
