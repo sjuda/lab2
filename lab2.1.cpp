@@ -44,8 +44,8 @@ int main()
         std::cout << "Not all values does not satisfy condition" << std::endl;
     }
     if ((((!(z % 5)) && (x % 5)) && (y % 5))
-		|| ((z % 5) && (!(x % 5) && (y % 5)) 
-			|| ((z % 5) && (x % 5) && (!(y % 5)))))
+        || ((z % 5) && (!(x % 5) && (y % 5))
+            || ((z % 5) && (x % 5) && (!(y % 5)))))
     {
         std::cout << "One of values multiples of 5" << std::endl;
     }
@@ -67,8 +67,8 @@ int main()
     int d = 0;
     std::cout << "Enter coordinates: " << std::endl;
     std::cin >> a >> b >> c >> d;
-    if (((a > 8) || (b > 8) || (c > 8) || (d > 8)) 
-		|| ((a < 0) || (b < 0) || (c < 0) || (d < 0) && (a == c) && (b == d)))
+    if (((a > 8) || (b > 8) || (c > 8) || (d > 8))
+        || ((a < 0) || (b < 0) || (c < 0) || (d < 0) && (a == c) && (b == d)))
     {
         std::cout << "Bad values! Try again!" << std::endl;
     }
@@ -87,9 +87,9 @@ int main()
             std::cout << "Ladya: You can not go to (C,D)" << std::endl;
         }
         if (((a - 2 == c) && ((b - 1 == d) || (b + 1 == d)))
-			|| ((a + 2 == c) && ((b - 1 == d) || (b + 1 == d))) 
-			|| ((b - 2 == d) && ((a - 1 == c) || (a + 1 == c))) 
-			|| ((b + 2 == d) && ((a - 1 == c) || (a + 1 == c))))
+            || ((a + 2 == c) && ((b - 1 == d) || (b + 1 == d)))
+            || ((b - 2 == d) && ((a - 1 == c) || (a + 1 == c)))
+            || ((b + 2 == d) && ((a - 1 == c) || (a + 1 == c))))
         {
             std::cout << "Slon: you can go" << std::endl;
         }
